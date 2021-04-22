@@ -4,7 +4,7 @@ const express = require('express')
 const WooCommerceRestApi = require("@woocommerce/woocommerce-rest-api").default;
 // import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api"; // Supports ESM
 
-const wooConfig = require('./wooConfig');
+const wooConfig = require('../');
 
 const WooCommerce = new WooCommerceRestApi({
     url: wooConfig.url,
