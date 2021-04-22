@@ -1,0 +1,27 @@
+.product-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 31%;
+}
+
+.product-name {
+    font-size: 1.5rem;
+    min-height: 140px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 160px;
+}
+
+.card img {
+	object-fit: scale-down;
+	height: 300px;
+}
